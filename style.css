@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    width: 100%;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 960px;
+}
+.site-header{
+    background-color: #11e5b2;
+    color: white;
+    padding: 15px;
+
+}
+.site-header a{
+    color: white;
+}
+.logo {
+    width: auto;
+    height: 60px;
+}
+.navbar a{
+    color: #717275;
+ 
+}
+.hero-section {
+    height: 550px;
+   
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-bg-video {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transform: scale(1.5);
+}
+.home-bg-video-overlay {
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle farthest-corner at center center, #ffffffaa, #d8e2e0cc) no-repeat;
+ 
+    top: 0;
+    position: absolute;
+}
+.home-content{
+  
+    transition: transform 1s ease-in-out; 
+}
+.home-content h2{
+ 
+    animation: slide-from-left 1s ease-in-out forwards; 
+    font-size: 60px;
+    font-weight: 500;
+  
+    line-height: 72px;
+    color: #ff00ee;
+}
+.home-right-img{
+    /* top: 100px;
+    position: absolute; */
+    animation: slide-from-right 1s ease-in-out forwards;
+    max-width: 550px;
+    width: 100%;
+}
+.who-we-are{
+    /* padding: 30px; */
+    background-color: #f0f8ff;
+   
+  }
+  .who-we-are h2{
+    color: #11e5b2;
+  }
+  .who-we-are p{
+    font-size: 16px;
+    color: #717275;
+  }
+.who-we-are-left{
+    
+   
+    animation: slide-from-left 1s ease-in-out forwards; 
+}
+.who-we-are-right{
+    animation: slide-from-right 1s ease-in-out forwards;
+
+}
+
+  
+  @keyframes slide-from-left {
+    from {
+      transform: translateX(-100%); 
+    }
+    to {
+      transform: translateX(0); 
+    }
+  }
+  
+  @keyframes slide-from-right {
+    from {
+      transform: translateX(100%); 
+    }
+    to {
+      transform: translateX(0); 
+    }
+  }
+ 
+  .mission-vision{
+    height: 360px;
+    margin-top: 20px;
+  }
+ 
+ .mission-vision img{
+    width: 128px;
+    height: 128px;
+    
+ }
+ .mission-vision h6{
+    padding: 0 40px;
+ }
+ .mission-vision-details{
+    overflow-y: auto;
+    height: 0;
+    /* opacity: 0; */
+    transition: height 0.3s ease-in-out;
+  }
+.mission-vision-details:hover {
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;   
+    /* display: block;  
+    opacity: 1;        */
+ 
+  }
+  .our-model h2{
+    color: #11e5b2;
+
+  }
+  .block-wrap{
+    width: 100%;
+    margin-top: 20px;
+    
+  }
+  .block-wrap a{
+    color: white;
+    background-color: gray;
+  }
+  .our-model-block{
+    border: .5px solid gray;
+    border-radius: 30px;
+    height: 150px;
+  }
+  .our-team-title-wrap{
+    color: white;
+    background-color: #11e5b2;
+    margin-bottom: 25px;
+  }
+  .our-team-title-wrap img{
+    width: 160px;
+    height: 160px;
+  }
