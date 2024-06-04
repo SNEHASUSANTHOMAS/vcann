@@ -145,7 +145,9 @@ a{
  
   }
   .our-model h2{
-    color: #11e5b2;
+   letter-spacing: -1px;
+   font-size: 24px;
+   line-height: 1;
 
   }
   .block-wrap{
@@ -153,21 +155,104 @@ a{
     margin-top: 20px;
     
   }
-  .block-wrap a{
-    color: white;
-    background-color: gray;
+  
+  .our-model .card-custom {
+    width: 16rem;
+    height: 10rem;
+    border-radius: 30px ;
   }
-  .our-model-block{
-    border: .5px solid gray;
+  .card-title-custom {
+    color: #4a5568;
+    font-weight: 600;
+  }
+  .card-footer-custom {
+    background-color: #6b7280;
+    color: #fff;
+    border-bottom-left-radius: 30px !important;
+    border-bottom-right-radius: 30px !important;
+  }
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+  }
+ 
+  /* .our-model-block{
+    
     border-radius: 30px;
     height: 150px;
-  }
-  .our-team-title-wrap{
+  } */
+  .constituency-title-wrap{
     color: white;
     background-color: #11e5b2;
     margin-bottom: 25px;
   }
-  .our-team-title-wrap img{
+  .constituency-title-wrap img{
     width: 160px;
     height: 160px;
+  }
+  .our-team{
+    background-color: #44525d;
+  }
+  .our-team h2{
+    color: #11e5b2;
+  }
+  .carousel img{
+    margin-right: 20px;
+  }
+  .get-involve-with-us{
+    padding-top: 50px;
+    background-color:#f0f8ff ;
+  }
+  .get-involve-with-us h5{
+    font-size: 28px;
+    color: #44525d;
+  }
+  .get-involve-with-us p{
+    color: #44525d;
+  }
+  .get-involve-with-us h2{
+    color: #11e5b2;
+  }
+  .get-involve-with-us .col-md-6{
+    width: 50%;
+  }
+  .get-involve-with-us .card{
+    background-color: #11e5b2;
+  }
+  .get-involve-with-us img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .get-involve-with-us .card p{
+    margin: 0;
+  }
+    /* .volunteer-vibrant-card{
+      height: 520px;
+    } */
+  .get-involve-with-us .carousel p{
+    color: white;
+    font-size: 13px;
+  }
+  .fw-bold{
+    font-size: 11px;
+  }
+  .glimpses h2{
+    color: #11e5b2;
+  }
+  .glimpses .card-img-top{
+    height: 250px;
+  }
+  .testimonial img{
+    height: 150px;
+    width: 100%
+  }
+  .testimonial .card{
+    border: none;
+    border-radius: 30px;
+  }
+  @media (max-width: 768px) {
+    .volunteer-vibrant-card{
+      width: 100% !important;
+    }
   }
